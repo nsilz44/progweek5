@@ -1,5 +1,6 @@
-﻿body{
+﻿body {
     background-color: black;
+    color: #00ff16;
 }
 
 .navbar {
@@ -220,5 +221,52 @@
 }
 
 .dropdown {
+    display: inline-block;
+}
+
+.col-sm-4, .col-sm-8{
+    padding: 2rem;
+}
+
+.container{
+    padding-top: 2rem;
+}
+
+#codeimage1 {
+    width: 100%;
+    height: 100%;
+}
+
+#brand{
+    line-height: 1;
+    padding-bottom: 0;
+    padding-top: 1px;
+}
+
+#card-container{
+    /*padding-left: 20rem;*/
+    padding-right: 40rem;
+    background-color: black;
+}
+
+.card {
+    background-color: black;
+    border-color: rgba(0, 255, 22, 1.00);
+}
+
+#card-image, #card-info{
+    padding: 0.5rem;
+}
+
+#reference-icon{
+    padding-bottom:0.1rem;
+    padding-top: 0.1rem;
+}
+
+#reference-container {
+    padding-top: 0.5rem;
+}
+
+#reference-links {
     display: inline-block;
 }
