@@ -5,6 +5,12 @@
    body { background: black !important; } 
    body { color: green !important; }
   </style>
+<meta charset="utf-8" />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css" />
   <title>Bioinformatics</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,7 +19,35 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 <body>
-
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html"><div id="brand">The Benefits <br />of Computing</div></a>
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Pages
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="tashpages.html">Environment</a>
+                    <a class="dropdown-item" href="sportcs.html">Sport</a>
+                    <a class="dropdown-item" href="Bioinformatics.html">Bioinformatics</a>
+                    <a class="dropdown-item" href="dogscs.html">Dogs</a>
+                </div>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search" name="q">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </nav>
+    <div class="container" id="container-header">
+        <h1>The Benefits of Computing</h1>
+    </div>
+    <div class="container">
+        <p>These are a set of pages about the benefits of computer science in modern day society. </p>
+    </div>
 <div class="container-fluid">
   <h1>Bioinformatics</h1>
   <small>The mathematical, statistical and computing methods that aim to solve biological problems using DNA and amino acid sequences.</small>
@@ -60,7 +94,7 @@
                     <div class="card-block px-2" id="card-info">
                         <h4 class="card-title">About the authour:</h4>
                         <span class="card-text">
-                            My bio<br />
+                            Megan is a netual science student of Biology and Computer Science who can usually be found in the theatre when she isn't in the science site <br/>
                         </span>
                         <div id="reference-container">
                             <img src="github-logo.png" class="img-fluid" alt="" width="15" height="15" />
