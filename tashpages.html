@@ -1,30 +1,51 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
+    <meta charset="utf-8" />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <title></title>
+
 
     <title>Hello, world!</title>
   </head>
 
   <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html"><div id="brand">The Benefits <br />of Computing</div></a>
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Pages
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="tashpages.html">Environment</a>
+                    <a class="dropdown-item" href="sportcs.html">Sport</a>
+                    <a class="dropdown-item" href="Bioinfomatics.html">Bioinfomatics</a>
+                    <a class="dropdown-item" href="dogscs.html">Dogs</a>
+                </div>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search" name="q">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </nav>
  
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  
 
    <div class="container">
     <h1>Benefits Computer Science has to Society!</h1>
-    <h2>Enviromental</h2>
+    <h2> <br>  Enviromental</h2>
 
     <p1>
+<br>  
 Computer science has many positive contributions to society. One of which is the environment benefits. Computer science is constantly in the media for it's help with environmental problems. 
 Here are a few examples of recent stories in the news:
 <br>  
@@ -46,7 +67,7 @@ Drones and sirens could help to combat the poaching of southern white rhinos. Th
 Thanks to conservation efforts, the number of southern white rhinos has increased dramatically since the early 1900s and now sits at around 20,000 individuals. Unfortunately, this has been followed by an uptick in poaching, and more than 1000 African rhinos were killed by poachers each year between 2013 and 2017.
 Efforts to combat poaching have traditionally relied on expensive options such as vehicle and foot patrols, which put a financial strain on the reserves and parks that are home to rhinos.         <a href="https://www.newscientist.com/article/2210106-drones-could-be-used-to-herd-rhinos-away-from-poaching-hotspots/#ixzz64tG4W8oN">Visit their website to read more </a>      
        </p2> 
-       <img src="rhinos-fleeing-the-drone2.jpg" style="width:300px;height:200px;"> 
+       <img src="rhinos-fleeing-the-drone2.jpg" style="width:400px;height:300px;"> 
 </div>
     <div class="col-sm">
       <h3>
@@ -61,11 +82,34 @@ Artificial intelligence has been helping us in various applications such as cust
   </div>
 </div>
 
+<div class="container" id="card-container">
+        <div class="card">
+            <div class="row no-gutters">
+                <div class="col-auto">
+                    <img src="rhinos-fleeing-the-drone2.jpg" class="img-fluid" alt="" width="200" height="100" id="card-image">
+                </div>
+                <div class="col">
+                    <div class="card-block px-2" id="card-info">
+                        <h4 class="card-title">About The Author:</h4>
+                        <span class="card-text">
+                            Hi, my name is Tash and I study Computer Science at Durham University <br />
+                        </span>
+                        <div id="reference-container">
+                            <img src="github-logo.png" class="img-fluid" alt="" width="15" height="15" />
+                            <a href="https://github.com/tash-comp" id="reference-links">My GitHub</a><br />
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>    
+</body>
+
 <div class="container">
    
-    <button onclick="window.location.href = 'https://w3docs.com';" class="btn btn-info btn-sm">Next Page</button> 
-    <button onclick="window.location.href = 'https://w3docs.com';" class="btn btn-info btn-sm">Previous Page</button> 
+    <button onclick="href="tashpages.html;" class="btn btn-info btn-sm">Next Page</button> 
+    
 </div>  
+
 
 
    </body>
