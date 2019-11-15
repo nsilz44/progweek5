@@ -276,3 +276,9 @@
     border-color: #00ff16;
     border-bottom: 2px solid;
 }
+
+.table td, .table th, .table thead th {
+    border-color: #00ff16;
+    border-top-color: #00ff16;
+    border-bottom-color: #00ff16;
+}
